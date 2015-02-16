@@ -20,4 +20,4 @@ waterMark('src.jpg', 'dsttext0.jpg', 0, '', '', 'litongxue', 6, '#990033');
 //water text, font 8
 waterMark('src.jpg', 'dsttext0.jpg', 1, '', '', 'litongxue', 6, '#990033');
 ```
-You have an demo.php file with more examples.
+You have a demo.php file with more examples.
