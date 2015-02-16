@@ -41,7 +41,7 @@
                 return 3; //waterimage only supports gif, jpg, png format
             }
         } else {
-            $temp = imagettfbbox(ceil($textFont*5),0,"elephant.ttf",$waterText);//defaulted watertext is elephant 
+            $temp = imagettfbbox(ceil($textFont*5),0,"src/elephant.ttf",$waterText);//defaulted watertext is elephant 
             $waterWidth = $temp[2] - $temp[6];
             $waterHeight = $temp[3] - $temp[7];
             unset($temp);

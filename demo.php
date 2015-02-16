@@ -2,7 +2,7 @@
 
 require 'src/waterMark.func.php';
 //water image
-waterMark('src.jpg', 'dst0.jpg', 1, 'logo.png', 100);
+waterMark('src.jpg', 'dst0.jpg', 0, 'logo.png', 100);
 waterMark('src.jpg', 'dst1.jpg', 1, 'logo.png', 100);
 waterMark('src.jpg', 'dst2.jpg', 2, 'logo.png', 90);
 waterMark('src.jpg', 'dst3.jpg', 3, 'logo.png', 80);
